@@ -3,6 +3,9 @@
         xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
     <module name="IntegerNet_PrometheusSecurityMetrics">
         <sequence>
+            <module name="Magento_User"/>
+            <module name="Magento_Security"/>
+            <module name="Magento_Backend"/>
         </sequence>
     </module>
 </config>

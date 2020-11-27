@@ -31,7 +31,8 @@
     ],
     "require": {
         "php": "~7.3||~7.4",
-        "magento/framework": "^103.0.0"
+        "magento/framework": "^103.0.0",
+        "run-as-root/magento2-prometheus-exporter": "dev-master"
     },
     "require-dev": {
         "roave/security-advisories": "dev-master",

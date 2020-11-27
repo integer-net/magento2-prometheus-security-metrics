@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="admin_user_authenticate_after">
+        <observer name="prometheus_security_metrics__track_admin_login_attempt"
+                  instance="IntegerNet\PrometheusSecurityMetrics\Observer\Backend\TrackFailedLogin" />
+    </event>
+</config>
