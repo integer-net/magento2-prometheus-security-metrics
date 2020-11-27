@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+    <table name="prometheus_security_metrics_failed_admin_logins" resource="default" engine="innodb">
+        <column xsi:type="varchar"   name="username" nullable="false" length="255"/>
+        <column xsi:type="timestamp" name="timestamp" default="CURRENT_TIMESTAMP" on_update="false"/>
+    </table>
+</schema>
